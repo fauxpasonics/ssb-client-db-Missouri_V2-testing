@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+create proc [rpt].[Param_FBHOBSeason] AS
+
+SELECT '2018' Label, '2018' Value
+GO
